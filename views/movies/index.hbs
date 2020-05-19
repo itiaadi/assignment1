@@ -1,0 +1,23 @@
+
+    <div class=" row">
+
+        {{#each infos}}
+        <div class=" col-sm-6 col-md-4">
+            {{#each this}}
+            <div class="thumbnail">
+                <img src="{{ this.imagePath }}"  class="img-resposive">
+                <div class="caption">   
+                    <h5 class="card-title">{{ this.title }}</h5>
+                    <p class="description">
+                        {{ this.description }}
+                    </p>
+                </div>
+            </div>
+            {{/each}}
+
+        </div>
+
+        {{/each}}
+    </div>
+
+

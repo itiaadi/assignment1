@@ -1,0 +1,7 @@
+.thumbnail img {
+    max-height: 500px;
+}
+
+.thumbnail .description {
+    color: #000000;
+}
