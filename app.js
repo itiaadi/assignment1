@@ -10,6 +10,9 @@ var indexRouter = require('./routes/index');
 
 
 var app = express();
+app.listen(3000, '0.0.0.0', function () {
+    console.log('Listening to port:  ' + 3000);
+});
 
 mongoose.connect('mongodb://localhost/[movie1]', {
     useNewUrlParser: true,
